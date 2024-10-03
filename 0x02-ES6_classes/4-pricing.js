@@ -6,12 +6,10 @@ export default class Pricing {
     this._currency = new Currency(currency.code, currency.name);
   }
 
-  // Getter for currency
   get currency() {
     return this._currency;
   }
 
-  // Setter for currency
   set currency(newCurrency) {
     if (newCurrency instanceof Currency) {
       this._currency = newCurrency;
@@ -26,4 +24,3 @@ export default class Pricing {
     return amount * conversionRate;
   }
 }
-
