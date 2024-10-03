@@ -1,0 +1,20 @@
+{
+  "name": "0x00-es6_basic",
+  "version": "1.0.0",
+  "description": "0x00. ES6 Basics",
+  "main": "index.js",
+  "dependencies": {
+    "html-minifier": "^4.0.0",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaiyeola Lolu",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lolu01/alx-backend-javascript.git"
+  }
+}
